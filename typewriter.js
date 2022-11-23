@@ -10,11 +10,11 @@ for (const char of sentence) {
   timer += 50; // the timer will increment by 50 ms on each iteration
   setTimeout(() => {
     process.stdout.write(char);
-  }, timer)
-};
+  }, timer);
+}
 
 
 //This code will be queued with the value of timer after all the iterations of the dor loop
 setTimeout(() => {
   process.stdout.write('\n');
-}, timer + 50)
+}, timer + 50);
